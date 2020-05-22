@@ -5,4 +5,17 @@ cmsenv\
 git cms-merge-topic -u CmsHI:hiMiniAOD_103X\
 \
 At this point, remove all .git directories from CMSSW.  This should allow the relevant software to be committed to github.\
+\
+In top level MiniAOD directory, create .gitignore with:\
+*.root\
+*~\
+#*\
+*.so\
+*.lis\
+*.db\
+GetRootFiles*.sh\
+.SCRAM/\
+\
+
+
 
