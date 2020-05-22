@@ -1,0 +1,8 @@
+*.root
+*~
+#*
+*.so
+*.lis
+*.db
+GetRootFiles*.sh
+.SCRAM/
