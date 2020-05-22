@@ -1,0 +1,1 @@
+PhysicsToolsPatAlgos_testAnalyzers PhysicsTools/PatAlgos/test/private/TestEventHypothesisWriter.cc PhysicsTools/PatAlgos/test/private/TestEventHypothesisReader.cc PhysicsTools/PatAlgos/test/private/PATUserDataTestModule.cc

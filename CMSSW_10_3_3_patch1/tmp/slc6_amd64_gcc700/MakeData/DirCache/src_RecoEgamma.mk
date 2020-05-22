@@ -1,0 +1,2 @@
+ALL_SUBSYSTEMS+=RecoEgamma
+subdirs_src_RecoEgamma = src_RecoEgamma_EgammaTools src_RecoEgamma_EgammaPhotonProducers

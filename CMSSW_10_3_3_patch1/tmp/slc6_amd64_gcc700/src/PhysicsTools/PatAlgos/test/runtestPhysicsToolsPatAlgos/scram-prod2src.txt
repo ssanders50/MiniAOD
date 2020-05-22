@@ -1,0 +1,1 @@
+runtestPhysicsToolsPatAlgos PhysicsTools/PatAlgos/test/runtestPhysicsToolsPatAlgos.cpp

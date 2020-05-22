@@ -1,0 +1,8 @@
+tmp/slc6_amd64_gcc700/src/RecoHI/HiTracking/test/RecoHIHiTrackingTest/modules.cc.o: \
+ src/RecoHI/HiTracking/test/modules.cc \
+ src/RecoHI/HiTracking/test/HIPixelClusterVtxAnalyzer.h \
+
+tmp/slc6_amd64_gcc700/src/RecoHI/HiTracking/test/RecoHIHiTrackingTest/HIPixelClusterVtxAnalyzer.cc.o: \
+ src/RecoHI/HiTracking/test/HIPixelClusterVtxAnalyzer.cc \
+ src/RecoHI/HiTracking/test/HIPixelClusterVtxAnalyzer.h \
+

@@ -1,0 +1,2 @@
+ALL_SUBSYSTEMS+=RecoVertex
+subdirs_src_RecoVertex = src_RecoVertex_PrimaryVertexProducer

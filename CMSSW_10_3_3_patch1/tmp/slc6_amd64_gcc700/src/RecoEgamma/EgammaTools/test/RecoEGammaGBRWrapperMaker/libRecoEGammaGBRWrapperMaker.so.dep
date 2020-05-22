@@ -1,0 +1,3 @@
+tmp/slc6_amd64_gcc700/src/RecoEgamma/EgammaTools/test/RecoEGammaGBRWrapperMaker/GBRWrapperMaker.cc.o: \
+ src/RecoEgamma/EgammaTools/test/GBRWrapperMaker.cc \
+

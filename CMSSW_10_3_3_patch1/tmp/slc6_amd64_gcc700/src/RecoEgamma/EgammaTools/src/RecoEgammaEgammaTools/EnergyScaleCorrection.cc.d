@@ -1,0 +1,22 @@
+tmp/slc6_amd64_gcc700/src/RecoEgamma/EgammaTools/src/RecoEgammaEgammaTools/EnergyScaleCorrection.cc.o: \
+ /home/sanders/MiniAOD/CMSSW_10_3_3_patch1/src/RecoEgamma/EgammaTools/src/EnergyScaleCorrection.cc \
+ /home/sanders/MiniAOD/CMSSW_10_3_3_patch1/src/RecoEgamma/EgammaTools/interface/EnergyScaleCorrection.h \
+ /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/FWCore/ParameterSet/interface/FileInPath.h \
+ /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/FWCore/MessageLogger/interface/MessageLogger.h \
+ /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/FWCore/MessageLogger/interface/MessageSender.h \
+ /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/FWCore/MessageLogger/interface/ELstring.h \
+ /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/FWCore/MessageLogger/interface/ELseverityLevel.h \
+ /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/FWCore/MessageLogger/interface/ELseverityLevel.icc \
+ /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/FWCore/MessageLogger/interface/ErrorObj.h \
+ /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/FWCore/MessageLogger/interface/ELlist.h \
+ /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/FWCore/MessageLogger/interface/ELextendedID.h \
+ /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/FWCore/MessageLogger/interface/ErrorObj.icc \
+ /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/FWCore/MessageLogger/interface/MessageDrop.h \
+ /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/FWCore/Utilities/interface/EDMException.h \
+ /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/FWCore/Utilities/interface/Exception.h \
+ /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/FWCore/Utilities/interface/GCC11Compatibility.h \
+ /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/FWCore/Utilities/interface/Visibility.h \
+ /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/FWCore/Utilities/interface/GCCPrerequisite.h \
+ /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/FWCore/Utilities/interface/Likely.h \
+ /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/FWCore/Utilities/interface/thread_safety_macros.h \
+ /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/FWCore/Utilities/interface/propagate_const.h

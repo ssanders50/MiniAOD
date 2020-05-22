@@ -1,0 +1,2 @@
+ALL_PACKAGES += RecoTauTag/Configuration
+subdirs_src_RecoTauTag_Configuration := src_RecoTauTag_Configuration_python src_RecoTauTag_Configuration_test

@@ -1,0 +1,2 @@
+ALL_PACKAGES += PhysicsTools/PatAlgos
+subdirs_src_PhysicsTools_PatAlgos := src_PhysicsTools_PatAlgos_plugins src_PhysicsTools_PatAlgos_scripts src_PhysicsTools_PatAlgos_python src_PhysicsTools_PatAlgos_test src_PhysicsTools_PatAlgos_src

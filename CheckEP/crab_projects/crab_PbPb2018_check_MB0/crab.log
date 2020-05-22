@@ -1,0 +1,113 @@
+DEBUG 2020-05-19 18:43:25.989 UTC: 	 Running on: Linux scilinux.home.ku.edu 2.6.32-642.6.2.el6.x86_64 #1 SMP Tue Oct 25 15:06:33 CDT 2016 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux release 6.10 (Carbon)
+DEBUG 2020-05-19 18:43:26.007 UTC: 	 OpenSSl version: OpenSSL 1.0.1r  28 Jan 2016
+DEBUG 2020-05-19 18:43:26.007 UTC: 	 Executing command: 'submit'
+DEBUG 2020-05-19 18:43:26.011 UTC: 	 Found CRAB cache file /home/sanders/.crab3
+DEBUG 2020-05-19 18:43:26.018 UTC: 	 Checking credentials
+DEBUG 2020-05-19 18:43:26.019 UTC: 	 Found proxy file /tmp/x509up_u148498
+DEBUG 2020-05-19 18:43:26.019 UTC: 	 Getting proxy life time left
+DEBUG 2020-05-19 18:43:26.072 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u148498 -timeleft
+ output : 56078
+
+ error: 
+ retcode : 0
+DEBUG 2020-05-19 18:43:26.108 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u148498 -actimeleft
+ output : 56078
+
+ error: 
+ retcode : 0
+DEBUG 2020-05-19 18:43:26.108 UTC: 	 Proxy valid for 15:34:38 hours
+DEBUG 2020-05-19 18:43:26.108 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2020-05-19 18:43:26.138 UTC: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=ssanders/CN=633398/CN=Stephen James Sanders
+
+ error: 
+ retcode : 0
+DEBUG 2020-05-19 18:43:26.138 UTC: 	 Checking credentials
+DEBUG 2020-05-19 18:43:26.138 UTC: 	 Found proxy file /tmp/x509up_u148498
+DEBUG 2020-05-19 18:43:26.138 UTC: 	 Getting proxy life time left
+DEBUG 2020-05-19 18:43:26.173 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u148498 -timeleft
+ output : 56078
+
+ error: 
+ retcode : 0
+DEBUG 2020-05-19 18:43:26.208 UTC: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u148498 -actimeleft
+ output : 56078
+
+ error: 
+ retcode : 0
+DEBUG 2020-05-19 18:43:26.208 UTC: 	 Proxy valid for 15:34:38 hours
+DEBUG 2020-05-19 18:43:26.246 UTC: 	 Executing : 
+ command : env X509_USER_PROXY=/tmp/x509up_u148498 voms-proxy-info -fqan
+ output : /cms/Role=NULL/Capability=NULL
+
+ error: 
+ retcode : 0
+DEBUG 2020-05-19 18:43:27.428 UTC: 	 Registering user credentials for server /DC=ch/DC=cern/OU=computers/CN=vocms0105.cern.ch|/DC=ch/DC=cern/OU=computers/CN=crab-(preprod|prod|dev)-tw(02|01).cern.ch|/DC=ch/DC=cern/OU=computers/CN=(ddi|ddidk|mytw).cern.ch|/DC=ch/DC=cern/OU=computers/CN=stefanov(m|m2).cern.ch
+DEBUG 2020-05-19 18:43:27.458 UTC: 	 Executing : 
+ command : openssl x509 -in ~/.globus/usercert.pem -subject -noout
+ output : subject= /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=ssanders/CN=633398/CN=Stephen James Sanders
+
+ error: 
+ retcode : 0
+DEBUG 2020-05-19 18:43:27.459 UTC: 	 Getting myproxy life time left for myproxy.cern.ch
+DEBUG 2020-05-19 18:43:27.459 UTC: 	 Calculating hash of /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=ssanders/CN=633398/CN=Stephen James Sanders_cmsweb.cern.ch for credential name
+DEBUG 2020-05-19 18:43:28.436 UTC: 	 Executing : 
+ command : myproxy-info -l 80f7726b7a4882aaf5f4f460e3cc9ef8191c403f -s myproxy.cern.ch
+ output : username: 80f7726b7a4882aaf5f4f460e3cc9ef8191c403f
+owner: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=ssanders/CN=633398/CN=Stephen James Sanders
+  renewal policy: /DC=ch/DC=cern/OU=computers/CN=vocms0105.cern.ch|/DC=ch/DC=cern/OU=computers/CN=crab-(preprod|prod|dev)-tw(02|01).cern.ch|/DC=ch/DC=cern/OU=computers/CN=(ddi|ddidk|mytw).cern.ch|/DC=ch/DC=cern/OU=computers/CN=stefanov(m|m2).cern.ch
+  trusted retrieval policy: /DC=ch/DC=cern/OU=computers/CN=vocms0105.cern.ch|/DC=ch/DC=cern/OU=computers/CN=crab-(preprod|prod|dev)-tw(02|01).cern.ch|/DC=ch/DC=cern/OU=computers/CN=(ddi|ddidk|mytw).cern.ch|/DC=ch/DC=cern/OU=computers/CN=stefanov(m|m2).cern.ch
+  timeleft: 386:33:54  (16.1 days)
+
+ error: 
+ retcode : 0
+DEBUG 2020-05-19 18:43:28.437 UTC: 	 Myproxy is valid: 1391634
+DEBUG 2020-05-19 18:43:28.437 UTC: 	 Command use: submit
+DEBUG 2020-05-19 18:43:28.437 UTC: 	 Options use: ['--config', <WMCore.Configuration.Configuration object at 0x7f2f1a06f750>]
+DEBUG 2020-05-19 18:43:29.077 UTC: 	 CRABClient version: 3.3.2001
+DEBUG 2020-05-19 18:43:29.077 UTC: 	 Instance is prod
+DEBUG 2020-05-19 18:43:29.077 UTC: 	 Server base url is cmsweb.cern.ch
+DEBUG 2020-05-19 18:43:29.077 UTC: 	 Command url /crabserver/prod/workflow
+DEBUG 2020-05-19 18:43:29.077 UTC: 	 Started submission
+DEBUG 2020-05-19 18:43:29.077 UTC: 	 Working on /home/sanders/MiniAOD/CheckEP/crab_projects/crab_PbPb2018_check_MB0
+DEBUG 2020-05-19 18:43:29.843 UTC: 	 Loading required information from the environment
+DEBUG 2020-05-19 18:43:29.844 UTC: 	 Found CMSSW_10_3_1_patch3 for slc6_amd64_gcc700 with base /home/sanders/PbPb_2018/CMSSW_10_3_1_patch3
+DEBUG 2020-05-19 18:43:29.844 UTC: 	 Loading required information from the environment
+DEBUG 2020-05-19 18:43:29.844 UTC: 	 Found CMSSW_10_3_1_patch3 for slc6_amd64_gcc700 with base /home/sanders/PbPb_2018/CMSSW_10_3_1_patch3
+DEBUG 2020-05-19 18:43:29.875 UTC: 	 UNIQUE NAME: tarUUID d3a1799a-e988-44a3-89ea-c0b13ec3c01f 
+DEBUG 2020-05-19 18:43:29.875 UTC: 	 self.config: from WMCore.Configuration import Configuration
+config = Configuration()
+config.section_('General')
+config.General.workArea = 'crab_projects'
+config.General.transferOutputs = True
+config.General.transferLogs = True
+config.General.requestName = 'PbPb2018_check_MB0'
+config.section_('JobType')
+config.JobType.outputFiles = ['check.root']
+config.JobType.pyCfgParams = ['noprint', 'lumifile=Cert_326381-327564_HI_PromptReco_Collisions18_JSON.txt', 'dbfile=HeavyIonRPRcd_PbPb2018_offline.db']
+config.JobType.pluginName = 'Analysis'
+config.JobType.allowUndistributedCMSSW = True
+config.JobType.psetName = '/home/sanders/PbPb_2018_default/CheckEP/checkep_cfg.py'
+config.JobType.inputFiles = ['Cert_326381-327564_HI_PromptReco_Collisions18_JSON.txt', 'HeavyIonRPRcd_PbPb2018_offline.db']
+config.JobType.maxJobRuntimeMin = 2500
+config.section_('Data')
+config.Data.inputDataset = '/HIMinimumBias0/HIRun2018A-04Apr2019-v1/AOD'
+config.Data.allowNonValidInputDataset = True
+config.Data.publication = False
+config.Data.unitsPerJob = 160
+config.Data.splitting = 'LumiBased'
+config.Data.lumiMask = 'Cert_326381-327564_HI_PromptReco_Collisions18_JSON.txt'
+config.Data.outLFNDirBase = '/store/user/ssanders/PbPb2018_check_MB0'
+config.Data.runRange = '326381-327999'
+config.section_('User')
+config.section_('Site')
+config.Site.storageSite = 'T2_US_Vanderbilt'
+
+DEBUG 2020-05-19 18:43:29.875 UTC: 	 self.config.JobType.psetName: /home/sanders/PbPb_2018_default/CheckEP/checkep_cfg.py
+INFO 2020-05-19 18:43:29.875 UTC: 	 Importing CMSSW configuration /home/sanders/PbPb_2018_default/CheckEP/checkep_cfg.py
+DEBUG 2020-05-19 18:43:29.875 UTC: 	 Additional parameters for the CMSSW configuration are: ['noprint', 'lumifile=Cert_326381-327564_HI_PromptReco_Collisions18_JSON.txt', 'dbfile=HeavyIonRPRcd_PbPb2018_offline.db']

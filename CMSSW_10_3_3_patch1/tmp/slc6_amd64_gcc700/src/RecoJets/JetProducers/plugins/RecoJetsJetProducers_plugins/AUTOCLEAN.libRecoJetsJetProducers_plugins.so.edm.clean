@@ -1,0 +1,2 @@
+01:/bin/rm -f lib/slc6_amd64_gcc700/pluginRecoJetsJetProducers_plugins.so lib/slc6_amd64_gcc700/RecoJetsJetProducers_plugins.edmplugin
+90:edmPluginRefresh lib/slc6_amd64_gcc700

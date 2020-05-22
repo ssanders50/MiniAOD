@@ -1,0 +1,2 @@
+ALL_PACKAGES += RecoEgamma/EgammaPhotonProducers
+subdirs_src_RecoEgamma_EgammaPhotonProducers := src_RecoEgamma_EgammaPhotonProducers_python src_RecoEgamma_EgammaPhotonProducers_src

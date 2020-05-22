@@ -1,0 +1,9 @@
+tmp/slc6_amd64_gcc700/src/PhysicsTools/PatAlgos/test/PhysicsToolsPatAlgos_testAnalyzers/private/TestEventHypothesisWriter.cc.o: \
+ src/PhysicsTools/PatAlgos/test/private/TestEventHypothesisWriter.cc \
+
+tmp/slc6_amd64_gcc700/src/PhysicsTools/PatAlgos/test/PhysicsToolsPatAlgos_testAnalyzers/private/TestEventHypothesisReader.cc.o: \
+ src/PhysicsTools/PatAlgos/test/private/TestEventHypothesisReader.cc \
+
+tmp/slc6_amd64_gcc700/src/PhysicsTools/PatAlgos/test/PhysicsToolsPatAlgos_testAnalyzers/private/PATUserDataTestModule.cc.o: \
+ src/PhysicsTools/PatAlgos/test/private/PATUserDataTestModule.cc \
+
