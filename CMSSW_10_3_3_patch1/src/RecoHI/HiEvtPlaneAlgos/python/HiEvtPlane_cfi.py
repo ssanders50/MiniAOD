@@ -5,6 +5,7 @@ hiEvtPlane = cms.EDProducer("EvtPlaneProducer",
                             caloTag = cms.InputTag("towerMaker"),
                             castorTag = cms.InputTag("CastorTowerReco"),
                             trackTag = cms.InputTag("generalTracks"),
+                            lostTag = cms.InputTag("lostTracks"),
                             centralityBinTag = cms.InputTag("centralityBin","HFtowers"),
                             centralityVariable = cms.string("HFtowers"),
                             nonDefaultGlauberModel = cms.string(""),
@@ -29,5 +30,7 @@ hiEvtPlane = cms.EDProducer("EvtPlaneProducer",
                             NumFlatBins = cms.int32(40),
                             caloCentRef = cms.double(-1),
                             caloCentRefWidth = cms.double(-1),
-                            CentBinCompression = cms.int32(5)
+                            CentBinCompression = cms.int32(5),
+                            chi2Map = cms.InputTag("packedPFCandidateTrackChi2"),
+                            chi2MapLost = cms.InputTag("lostTrackChi2")
                             )

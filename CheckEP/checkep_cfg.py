@@ -77,7 +77,7 @@ process.eventSelection = cms.Sequence(
 
 
 
-process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(1) )
+process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(-1) )
 process.MessageLogger.cerr.FwkReport.reportEvery=1000
 
 process.CondDB.connect = "sqlite_file:"+ivars.dbfile
@@ -183,16 +183,18 @@ process.hiEvtPlaneFlat.caloCentRefWidth = cms.double(-1)
 process.hiEvtPlaneFlat.vertexTag = cms.InputTag("offlinePrimaryVertices")
 process.hiEvtPlaneFlat.useNtrk = cms.untracked.bool(False)
 
-if ivars.aodType == 'AOD' or ivars.aodType == 'TestAOD':
-#    process.p = cms.Path(process.offlinePrimaryVerticesRecovery*process.eventSelection*process.centralityBin* process.hiEvtPlane * process.hiEvtPlaneFlat)
+if ivars.aodType == 'AOD':
     process.p = cms.Path(process.offlinePrimaryVerticesRecovery*process.eventSelection*process.centralityBin* process.hiEvtPlane * process.hiEvtPlaneFlat*process.checkflattening)
+
+if ivars.aodType == 'TestAOD':
+    process.p = cms.Path(process.centralityBin* process.hiEvtPlane * process.hiEvtPlaneFlat*process.checkflattening)
 
 if ivars.aodType == 'MiniAOD' :
     process.p = cms.Path(process.centralityBin*process.hiEvtPlane*process.hiEvtPlaneFlat*process.checkflattening)
 
 
 from HLTrigger.Configuration.CustomConfigs import MassReplaceInputTag
-if ivars.aodType=='AOD' or ivars.aodType=='TestAOD':
+if ivars.aodType=='AOD':
     process = MassReplaceInputTag(process,"offlinePrimaryVertices","offlinePrimaryVerticesRecovery")
     process.offlinePrimaryVerticesRecovery.oldVertexLabel = "offlinePrimaryVertices"
     

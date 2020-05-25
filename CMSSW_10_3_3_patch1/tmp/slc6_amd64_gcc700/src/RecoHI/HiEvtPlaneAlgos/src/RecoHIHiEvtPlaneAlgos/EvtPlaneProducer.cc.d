@@ -966,6 +966,7 @@ tmp/slc6_amd64_gcc700/src/RecoHI/HiEvtPlaneAlgos/src/RecoHIHiEvtPlaneAlgos/EvtPl
  /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/DataFormats/HcalRecHit/interface/HBHEChannelInfo.h \
  /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/DataFormats/HcalRecHit/interface/HcalSpecialTimes.h \
  /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/DataFormats/CastorReco/interface/CastorTower.h \
+ /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/DataFormats/Common/interface/ValueMap.h \
  /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/FWCore/ServiceRegistry/interface/Service.h \
  /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/DataFormats/TrackReco/interface/Track.h \
  /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/DataFormats/TrackReco/interface/TrackBase.h \
@@ -1140,7 +1141,6 @@ tmp/slc6_amd64_gcc700/src/RecoHI/HiEvtPlaneAlgos/src/RecoHIHiEvtPlaneAlgos/EvtPl
  /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/CondFormats/HIObjects/interface/CentralityTable.h \
  /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/DataFormats/PatCandidates/interface/PackedCandidate.h \
  /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/DataFormats/Common/interface/Association.h \
- /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/DataFormats/Common/interface/ValueMap.h \
  /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/DataFormats/Math/interface/deltaPhi.h \
  /cvmfs/cms.cern.ch/slc6_amd64_gcc700/cms/cmssw-patch/CMSSW_10_3_3_patch1/src/DataFormats/PatCandidates/interface/CovarianceParameterization.h \
  /cvmfs/cms.cern.ch/slc6_amd64_gcc700/lcg/root/6.12.07-ogkkac4/include/TFile.h \

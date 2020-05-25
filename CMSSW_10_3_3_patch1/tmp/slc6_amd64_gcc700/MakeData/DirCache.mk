@@ -43,11 +43,11 @@ endif
 ALL_COMMONRULES += src_RecoTauTag_Configuration_python
 src_RecoTauTag_Configuration_python_INIT_FUNC += $$(eval $$(call CommonProductRules,src_RecoTauTag_Configuration_python,src/RecoTauTag/Configuration/python,PYTHON))
 ALL_PACKAGES += HeavyIonsAnalysis/EventAnalysis
-subdirs_src_HeavyIonsAnalysis_EventAnalysis := src_HeavyIonsAnalysis_EventAnalysis_python src_HeavyIonsAnalysis_EventAnalysis_src
+subdirs_src_HeavyIonsAnalysis_EventAnalysis := src_HeavyIonsAnalysis_EventAnalysis_src src_HeavyIonsAnalysis_EventAnalysis_python
 ALL_SUBSYSTEMS+=RecoEgamma
-subdirs_src_RecoEgamma = src_RecoEgamma_EgammaTools src_RecoEgamma_EgammaPhotonProducers
+subdirs_src_RecoEgamma = src_RecoEgamma_EgammaPhotonProducers src_RecoEgamma_EgammaTools
 ALL_PACKAGES += PhysicsTools/PatAlgos
-subdirs_src_PhysicsTools_PatAlgos := src_PhysicsTools_PatAlgos_plugins src_PhysicsTools_PatAlgos_scripts src_PhysicsTools_PatAlgos_python src_PhysicsTools_PatAlgos_test src_PhysicsTools_PatAlgos_src
+subdirs_src_PhysicsTools_PatAlgos := src_PhysicsTools_PatAlgos_python src_PhysicsTools_PatAlgos_plugins src_PhysicsTools_PatAlgos_scripts src_PhysicsTools_PatAlgos_test src_PhysicsTools_PatAlgos_src
 ifeq ($(strip $(RecoEGammaGBRWrapperMaker)),)
 RecoEGammaGBRWrapperMaker := self/src/RecoEgamma/EgammaTools/test
 RecoEGammaGBRWrapperMaker_files := $(patsubst src/RecoEgamma/EgammaTools/test/%,%,$(foreach file,GBRWrapperMaker.cc,$(eval xfile:=$(wildcard src/RecoEgamma/EgammaTools/test/$(file)))$(if $(xfile),$(xfile),$(warning No such file exists: src/RecoEgamma/EgammaTools/test/$(file). Please fix src/RecoEgamma/EgammaTools/test/BuildFile.))))
@@ -100,11 +100,11 @@ endif
 ALL_COMMONRULES += src_PhysicsTools_PatAlgos_python
 src_PhysicsTools_PatAlgos_python_INIT_FUNC += $$(eval $$(call CommonProductRules,src_PhysicsTools_PatAlgos_python,src/PhysicsTools/PatAlgos/python,PYTHON))
 ALL_PACKAGES += HeavyIonsAnalysis/HiEvtPlaneCalib
-subdirs_src_HeavyIonsAnalysis_HiEvtPlaneCalib := src_HeavyIonsAnalysis_HiEvtPlaneCalib_python src_HeavyIonsAnalysis_HiEvtPlaneCalib_test src_HeavyIonsAnalysis_HiEvtPlaneCalib_src
+subdirs_src_HeavyIonsAnalysis_HiEvtPlaneCalib := src_HeavyIonsAnalysis_HiEvtPlaneCalib_test src_HeavyIonsAnalysis_HiEvtPlaneCalib_src src_HeavyIonsAnalysis_HiEvtPlaneCalib_python
 ALL_PACKAGES += RecoEgamma/EgammaTools
-subdirs_src_RecoEgamma_EgammaTools := src_RecoEgamma_EgammaTools_plugins src_RecoEgamma_EgammaTools_python src_RecoEgamma_EgammaTools_test src_RecoEgamma_EgammaTools_interface src_RecoEgamma_EgammaTools_src src_RecoEgamma_EgammaTools_data
+subdirs_src_RecoEgamma_EgammaTools := src_RecoEgamma_EgammaTools_src src_RecoEgamma_EgammaTools_plugins src_RecoEgamma_EgammaTools_test src_RecoEgamma_EgammaTools_python
 ALL_PACKAGES += RecoHI/HiEvtPlaneAlgos
-subdirs_src_RecoHI_HiEvtPlaneAlgos := src_RecoHI_HiEvtPlaneAlgos_python src_RecoHI_HiEvtPlaneAlgos_test src_RecoHI_HiEvtPlaneAlgos_interface src_RecoHI_HiEvtPlaneAlgos_src
+subdirs_src_RecoHI_HiEvtPlaneAlgos := src_RecoHI_HiEvtPlaneAlgos_python src_RecoHI_HiEvtPlaneAlgos_src src_RecoHI_HiEvtPlaneAlgos_test
 ifeq ($(strip $(PyRecoHIHiJetAlgos)),)
 PyRecoHIHiJetAlgos := self/src/RecoHI/HiJetAlgos/python
 src_RecoHI_HiJetAlgos_python_parent := 
@@ -151,11 +151,11 @@ endif
 ALL_COMMONRULES += src_HeavyIonsAnalysis_EventAnalysis_python
 src_HeavyIonsAnalysis_EventAnalysis_python_INIT_FUNC += $$(eval $$(call CommonProductRules,src_HeavyIonsAnalysis_EventAnalysis_python,src/HeavyIonsAnalysis/EventAnalysis/python,PYTHON))
 ALL_PACKAGES += RecoHI/HiJetAlgos
-subdirs_src_RecoHI_HiJetAlgos := src_RecoHI_HiJetAlgos_plugins src_RecoHI_HiJetAlgos_python src_RecoHI_HiJetAlgos_test src_RecoHI_HiJetAlgos_src
+subdirs_src_RecoHI_HiJetAlgos := src_RecoHI_HiJetAlgos_test src_RecoHI_HiJetAlgos_python src_RecoHI_HiJetAlgos_plugins src_RecoHI_HiJetAlgos_src
 ALL_SUBSYSTEMS+=RecoJets
 subdirs_src_RecoJets = src_RecoJets_Configuration src_RecoJets_JetProducers
 ALL_PACKAGES += RecoJets/JetProducers
-subdirs_src_RecoJets_JetProducers := src_RecoJets_JetProducers_plugins src_RecoJets_JetProducers_doc src_RecoJets_JetProducers_python src_RecoJets_JetProducers_test src_RecoJets_JetProducers_src src_RecoJets_JetProducers_validation
+subdirs_src_RecoJets_JetProducers := src_RecoJets_JetProducers_test src_RecoJets_JetProducers_python src_RecoJets_JetProducers_plugins src_RecoJets_JetProducers_src
 ifeq ($(strip $(PyHeavyIonsAnalysisConfiguration)),)
 PyHeavyIonsAnalysisConfiguration := self/src/HeavyIonsAnalysis/Configuration/python
 src_HeavyIonsAnalysis_Configuration_python_parent := 
@@ -171,20 +171,7 @@ endif
 ALL_COMMONRULES += src_HeavyIonsAnalysis_Configuration_python
 src_HeavyIonsAnalysis_Configuration_python_INIT_FUNC += $$(eval $$(call CommonProductRules,src_HeavyIonsAnalysis_Configuration_python,src/HeavyIonsAnalysis/Configuration/python,PYTHON))
 ALL_PACKAGES += RecoJets/Configuration
-subdirs_src_RecoJets_Configuration := src_RecoJets_Configuration_doc src_RecoJets_Configuration_python
-ifeq ($(strip $(runtestPhysicsToolsPatAlgos)),)
-runtestPhysicsToolsPatAlgos := self/src/PhysicsTools/PatAlgos/test
-runtestPhysicsToolsPatAlgos_files := $(patsubst src/PhysicsTools/PatAlgos/test/%,%,$(foreach file,runtestPhysicsToolsPatAlgos.cpp,$(eval xfile:=$(wildcard src/PhysicsTools/PatAlgos/test/$(file)))$(if $(xfile),$(xfile),$(warning No such file exists: src/PhysicsTools/PatAlgos/test/$(file). Please fix src/PhysicsTools/PatAlgos/test/BuildFile.))))
-runtestPhysicsToolsPatAlgos_TEST_RUNNER_CMD :=  runtestPhysicsToolsPatAlgos  /bin/bash PhysicsTools/PatAlgos/test runtests.sh
-runtestPhysicsToolsPatAlgos_BuildFile    := $(WORKINGDIR)/cache/bf/src/PhysicsTools/PatAlgos/test/BuildFile
-runtestPhysicsToolsPatAlgos_LOC_USE := self cmssw FWCore/Utilities
-runtestPhysicsToolsPatAlgos_PACKAGE := self/src/PhysicsTools/PatAlgos/test
-ALL_PRODS += runtestPhysicsToolsPatAlgos
-runtestPhysicsToolsPatAlgos_INIT_FUNC        += $$(eval $$(call Binary,runtestPhysicsToolsPatAlgos,src/PhysicsTools/PatAlgos/test,src_PhysicsTools_PatAlgos_test,$(SCRAMSTORENAME_BIN),,$(SCRAMSTORENAME_TEST),test,$(SCRAMSTORENAME_LOGS)))
-runtestPhysicsToolsPatAlgos_CLASS := TEST
-else
-$(eval $(call MultipleWarningMsg,runtestPhysicsToolsPatAlgos,src/PhysicsTools/PatAlgos/test))
-endif
+subdirs_src_RecoJets_Configuration := src_RecoJets_Configuration_python
 ifeq ($(strip $(PhysicsToolsPatAlgos_testAnalyzers)),)
 PhysicsToolsPatAlgos_testAnalyzers := self/src/PhysicsTools/PatAlgos/test
 PhysicsToolsPatAlgos_testAnalyzers_files := $(patsubst src/PhysicsTools/PatAlgos/test/%,%,$(foreach file,private/*.cc,$(eval xfile:=$(wildcard src/PhysicsTools/PatAlgos/test/$(file)))$(if $(xfile),$(xfile),$(warning No such file exists: src/PhysicsTools/PatAlgos/test/$(file). Please fix src/PhysicsTools/PatAlgos/test/BuildFile.))))
@@ -198,16 +185,29 @@ PhysicsToolsPatAlgos_testAnalyzers_CLASS := TEST_LIBRARY
 else
 $(eval $(call MultipleWarningMsg,PhysicsToolsPatAlgos_testAnalyzers,src/PhysicsTools/PatAlgos/test))
 endif
+ifeq ($(strip $(runtestPhysicsToolsPatAlgos)),)
+runtestPhysicsToolsPatAlgos := self/src/PhysicsTools/PatAlgos/test
+runtestPhysicsToolsPatAlgos_files := $(patsubst src/PhysicsTools/PatAlgos/test/%,%,$(foreach file,runtestPhysicsToolsPatAlgos.cpp,$(eval xfile:=$(wildcard src/PhysicsTools/PatAlgos/test/$(file)))$(if $(xfile),$(xfile),$(warning No such file exists: src/PhysicsTools/PatAlgos/test/$(file). Please fix src/PhysicsTools/PatAlgos/test/BuildFile.))))
+runtestPhysicsToolsPatAlgos_TEST_RUNNER_CMD :=  runtestPhysicsToolsPatAlgos  /bin/bash PhysicsTools/PatAlgos/test runtests.sh
+runtestPhysicsToolsPatAlgos_BuildFile    := $(WORKINGDIR)/cache/bf/src/PhysicsTools/PatAlgos/test/BuildFile
+runtestPhysicsToolsPatAlgos_LOC_USE := self cmssw FWCore/Utilities
+runtestPhysicsToolsPatAlgos_PACKAGE := self/src/PhysicsTools/PatAlgos/test
+ALL_PRODS += runtestPhysicsToolsPatAlgos
+runtestPhysicsToolsPatAlgos_INIT_FUNC        += $$(eval $$(call Binary,runtestPhysicsToolsPatAlgos,src/PhysicsTools/PatAlgos/test,src_PhysicsTools_PatAlgos_test,$(SCRAMSTORENAME_BIN),,$(SCRAMSTORENAME_TEST),test,$(SCRAMSTORENAME_LOGS)))
+runtestPhysicsToolsPatAlgos_CLASS := TEST
+else
+$(eval $(call MultipleWarningMsg,runtestPhysicsToolsPatAlgos,src/PhysicsTools/PatAlgos/test))
+endif
 ALL_COMMONRULES += src_PhysicsTools_PatAlgos_test
 src_PhysicsTools_PatAlgos_test_parent := PhysicsTools/PatAlgos
 src_PhysicsTools_PatAlgos_test_INIT_FUNC += $$(eval $$(call CommonProductRules,src_PhysicsTools_PatAlgos_test,src/PhysicsTools/PatAlgos/test,TEST))
 ALL_PACKAGES += RecoVertex/PrimaryVertexProducer
-subdirs_src_RecoVertex_PrimaryVertexProducer := src_RecoVertex_PrimaryVertexProducer_plugins src_RecoVertex_PrimaryVertexProducer_python src_RecoVertex_PrimaryVertexProducer_src
+subdirs_src_RecoVertex_PrimaryVertexProducer := src_RecoVertex_PrimaryVertexProducer_src src_RecoVertex_PrimaryVertexProducer_python src_RecoVertex_PrimaryVertexProducer_plugins
 ALL_COMMONRULES += src_RecoHI_HiEvtPlaneAlgos_test
 src_RecoHI_HiEvtPlaneAlgos_test_parent := RecoHI/HiEvtPlaneAlgos
 src_RecoHI_HiEvtPlaneAlgos_test_INIT_FUNC += $$(eval $$(call CommonProductRules,src_RecoHI_HiEvtPlaneAlgos_test,src/RecoHI/HiEvtPlaneAlgos/test,TEST))
 ALL_PACKAGES += HeavyIonsAnalysis/Configuration
-subdirs_src_HeavyIonsAnalysis_Configuration := src_HeavyIonsAnalysis_Configuration_python src_HeavyIonsAnalysis_Configuration_test src_HeavyIonsAnalysis_Configuration_data
+subdirs_src_HeavyIonsAnalysis_Configuration := src_HeavyIonsAnalysis_Configuration_test src_HeavyIonsAnalysis_Configuration_python
 ALL_SUBSYSTEMS+=PhysicsTools
 subdirs_src_PhysicsTools = src_PhysicsTools_PatAlgos
 ALL_COMMONRULES += src_RecoJets_JetProducers_test
@@ -235,7 +235,7 @@ src_HeavyIonsAnalysis_HiEvtPlaneCalib_test_INIT_FUNC += $$(eval $$(call CommonPr
 ALL_SUBSYSTEMS+=HeavyIonsAnalysis
 subdirs_src_HeavyIonsAnalysis = src_HeavyIonsAnalysis_Configuration src_HeavyIonsAnalysis_EventAnalysis src_HeavyIonsAnalysis_HiEvtPlaneCalib
 ALL_PACKAGES += RecoTauTag/Configuration
-subdirs_src_RecoTauTag_Configuration := src_RecoTauTag_Configuration_python src_RecoTauTag_Configuration_test
+subdirs_src_RecoTauTag_Configuration := src_RecoTauTag_Configuration_test src_RecoTauTag_Configuration_python
 ifeq ($(strip $(PyRecoHIHiTracking)),)
 PyRecoHIHiTracking := self/src/RecoHI/HiTracking/python
 src_RecoHI_HiTracking_python_parent := 
@@ -286,7 +286,7 @@ endif
 ALL_COMMONRULES += src_HeavyIonsAnalysis_HiEvtPlaneCalib_python
 src_HeavyIonsAnalysis_HiEvtPlaneCalib_python_INIT_FUNC += $$(eval $$(call CommonProductRules,src_HeavyIonsAnalysis_HiEvtPlaneCalib_python,src/HeavyIonsAnalysis/HiEvtPlaneCalib/python,PYTHON))
 ALL_PACKAGES += RecoHI/HiTracking
-subdirs_src_RecoHI_HiTracking := src_RecoHI_HiTracking_plugins src_RecoHI_HiTracking_python src_RecoHI_HiTracking_test src_RecoHI_HiTracking_src
+subdirs_src_RecoHI_HiTracking := src_RecoHI_HiTracking_src src_RecoHI_HiTracking_test src_RecoHI_HiTracking_python src_RecoHI_HiTracking_plugins
 ifeq ($(strip $(PyRecoJetsJetProducers)),)
 PyRecoJetsJetProducers := self/src/RecoJets/JetProducers/python
 src_RecoJets_JetProducers_python_parent := 
