@@ -151,6 +151,9 @@ tmp/slc6_amd64_gcc700/src/PhysicsTools/PatAlgos/plugins/PhysicsToolsPatAlgos_plu
  src/PhysicsTools/PatAlgos/plugins/PATMHTProducer.cc \
  src/PhysicsTools/PatAlgos/plugins/PATMHTProducer.h \
 
+tmp/slc6_amd64_gcc700/src/PhysicsTools/PatAlgos/plugins/PhysicsToolsPatAlgos_plugins/PackedCandidateTrackChi2Producer.cc.o: \
+ src/PhysicsTools/PatAlgos/plugins/PackedCandidateTrackChi2Producer.cc \
+
 tmp/slc6_amd64_gcc700/src/PhysicsTools/PatAlgos/plugins/PhysicsToolsPatAlgos_plugins/PATPhotonSlimmer.cc.o: \
  src/PhysicsTools/PatAlgos/plugins/PATPhotonSlimmer.cc \
  src/PhysicsTools/PatAlgos/interface/ObjectModifier.h \

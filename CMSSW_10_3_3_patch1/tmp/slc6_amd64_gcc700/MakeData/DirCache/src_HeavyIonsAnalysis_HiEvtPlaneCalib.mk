@@ -1,2 +1,0 @@
-ALL_PACKAGES += HeavyIonsAnalysis/HiEvtPlaneCalib
-subdirs_src_HeavyIonsAnalysis_HiEvtPlaneCalib := src_HeavyIonsAnalysis_HiEvtPlaneCalib_test src_HeavyIonsAnalysis_HiEvtPlaneCalib_src src_HeavyIonsAnalysis_HiEvtPlaneCalib_python

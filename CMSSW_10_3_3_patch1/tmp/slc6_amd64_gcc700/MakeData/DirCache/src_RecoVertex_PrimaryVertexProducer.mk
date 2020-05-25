@@ -1,2 +1,0 @@
-ALL_PACKAGES += RecoVertex/PrimaryVertexProducer
-subdirs_src_RecoVertex_PrimaryVertexProducer := src_RecoVertex_PrimaryVertexProducer_src src_RecoVertex_PrimaryVertexProducer_python src_RecoVertex_PrimaryVertexProducer_plugins

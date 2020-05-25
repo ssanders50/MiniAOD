@@ -15,6 +15,9 @@ tmp/slc6_amd64_gcc700/src/RecoHI/HiJetAlgos/plugins/HiJetAlgosPlugins/plugins.cc
  src/RecoHI/HiJetAlgos/interface/ReflectedIterator.h \
  src/RecoHI/HiJetAlgos/interface/HiGenCleaner.h \
 
+tmp/slc6_amd64_gcc700/src/RecoHI/HiJetAlgos/plugins/HiJetAlgosPlugins/JetFlavourPlaceholder.cc.o: \
+ src/RecoHI/HiJetAlgos/plugins/JetFlavourPlaceholder.cc \
+
 tmp/slc6_amd64_gcc700/src/RecoHI/HiJetAlgos/plugins/HiJetAlgosPlugins/HiSignalGenJetProducer.cc.o: \
  src/RecoHI/HiJetAlgos/plugins/HiSignalGenJetProducer.cc \
 

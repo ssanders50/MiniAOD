@@ -1,2 +1,2 @@
 ALL_SUBSYSTEMS+=RecoHI
-subdirs_src_RecoHI = src_RecoHI_HiJetAlgos src_RecoHI_HiEvtPlaneAlgos src_RecoHI_HiTracking
+subdirs_src_RecoHI = src_RecoHI_HiJetAlgos src_RecoHI_HiTracking

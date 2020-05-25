@@ -1,2 +1,0 @@
-ALL_PACKAGES += HeavyIonsAnalysis/EventAnalysis
-subdirs_src_HeavyIonsAnalysis_EventAnalysis := src_HeavyIonsAnalysis_EventAnalysis_src src_HeavyIonsAnalysis_EventAnalysis_python

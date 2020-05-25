@@ -1,2 +1,2 @@
 ALL_SUBSYSTEMS+=HeavyIonsAnalysis
-subdirs_src_HeavyIonsAnalysis = src_HeavyIonsAnalysis_Configuration src_HeavyIonsAnalysis_EventAnalysis src_HeavyIonsAnalysis_HiEvtPlaneCalib
+subdirs_src_HeavyIonsAnalysis = src_HeavyIonsAnalysis_Configuration

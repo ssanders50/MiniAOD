@@ -76,12 +76,6 @@ plugin-poisoned-HiJetAlgosPlugins.so ParticleTowerProducer CMS%EDM%Framework%Par
 plugin-poisoned-HiJetAlgosPlugins.so ReflectedIterator PileUpSubtractorFactory
 plugin-poisoned-HiJetAlgosPlugins.so UETableProducer CMS%EDM%Framework%Module
 plugin-poisoned-HiJetAlgosPlugins.so UETableProducer CMS%EDM%Framework%ParameterSet%Description
-plugin-poisoned-RecoHIHiEvtPlaneAlgos.so EvtPlaneFilter CMS%EDM%Framework%Module
-plugin-poisoned-RecoHIHiEvtPlaneAlgos.so EvtPlaneFilter CMS%EDM%Framework%ParameterSet%Description
-plugin-poisoned-RecoHIHiEvtPlaneAlgos.so EvtPlaneProducer CMS%EDM%Framework%Module
-plugin-poisoned-RecoHIHiEvtPlaneAlgos.so EvtPlaneProducer CMS%EDM%Framework%ParameterSet%Description
-plugin-poisoned-RecoHIHiEvtPlaneAlgos.so HiEvtPlaneFlatProducer CMS%EDM%Framework%Module
-plugin-poisoned-RecoHIHiEvtPlaneAlgos.so HiEvtPlaneFlatProducer CMS%EDM%Framework%ParameterSet%Description
 plugin-poisoned-RecoHIHiTrackingPlugins.so HIBestVertexProducer CMS%EDM%Framework%Module
 plugin-poisoned-RecoHIHiTrackingPlugins.so HIBestVertexProducer CMS%EDM%Framework%ParameterSet%Description
 plugin-poisoned-RecoHIHiTrackingPlugins.so HIBestVertexSelection CMS%EDM%Framework%Module
@@ -410,5 +404,3 @@ plugin-poisoned-PhysicsToolsPatAlgos_testAnalyzers.so TestEventHypothesisReader 
 plugin-poisoned-PhysicsToolsPatAlgos_testAnalyzers.so TestEventHypothesisReader CMS%EDM%Framework%ParameterSet%Description
 plugin-poisoned-PhysicsToolsPatAlgos_testAnalyzers.so TestEventHypothesisWriter CMS%EDM%Framework%Module
 plugin-poisoned-PhysicsToolsPatAlgos_testAnalyzers.so TestEventHypothesisWriter CMS%EDM%Framework%ParameterSet%Description
-plugin-poisoned-RecoVertexPrimaryVertexProducerPlugins.so PrimaryVertexProducer CMS%EDM%Framework%Module
-plugin-poisoned-RecoVertexPrimaryVertexProducerPlugins.so PrimaryVertexProducer CMS%EDM%Framework%ParameterSet%Description
